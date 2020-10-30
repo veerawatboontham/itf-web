@@ -10,6 +10,6 @@
     <p>ญ : พ่อง</p>
     <img src="cat.jpg" />
     <img src="aaa.jpg" />
-    <br />
+    <br>
   </body>
 </html>
