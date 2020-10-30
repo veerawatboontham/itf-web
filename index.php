@@ -1,4 +1,4 @@
 <?php
-echo "<ch>IT@KMITL</h2><br>";
-echo "Hello IT<br>";
+echo "<ch>Name: Veerawat Boontham Nickname : V </h2><br>";
+echo <a href="http://www.it.kmitl.ac.th">This is a Link</a>
 ?>
