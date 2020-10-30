@@ -11,5 +11,5 @@
     <img src="cat.jpg" />
     <img src="aaa.jpg" />
     <br />
-
+  </body>
 </html>
