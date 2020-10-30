@@ -1,5 +1,8 @@
 <?php
 echo "<ch>Name: Veerawat Boontham Nickname : V </h2><br>";
-echo "Hello IT<br>";
-echo <img src="https://images.app.goo.gl/wMRLg3VkBCRcL89D8" />;
+echo "บทสนทนาของคู่รักคู่หนึ่ง
+ช : เราเลิกกันเถอะผมรู้ว่าคุณรักผมน้อยลง
+ญ : ฉันไม่เคยรักคุณน้อยลงนะ
+ช : น้อยสิ เดือนก่อนคุณรักผม 31 วัน เดือนนี้คุณรักผม 30 วัน
+ญ : พ่อง<br>";
 ?>
