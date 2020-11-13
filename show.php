@@ -36,6 +36,7 @@ mysqli_close($conn);
 ?>
   <form action = "insert.php" method = "post" id="CommentForm" >
   <input type="submit" id="commentBtn">
+  <input type="เพิ่ม" id="commentBtn">
   </form> 
 </body>
 </html>
