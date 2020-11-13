@@ -34,8 +34,5 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-  <form action = "form.html" method = "post" id="CommentForm" >
-  <input type="submit" id="commentBtn">
-  </form> 
 </body>
 </html>
