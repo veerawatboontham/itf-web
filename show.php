@@ -30,6 +30,13 @@ while($Result = mysqli_fetch_array($res))
 <?php
 }
 ?>
+?>
+  <tr>
+    <td><?php echo $Result['Name'];?></div></td>
+    <td><?php echo $Result['Comment'];?></td>
+    <td><?php echo $Result['Link'];?></td>
+  </tr>
+<?php
 </table>
 <?php
 mysqli_close($conn);
