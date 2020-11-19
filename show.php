@@ -1,3 +1,4 @@
+  
 <html>
 <head>
 <title>ITF Lab</title>
@@ -12,7 +13,7 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
-<table id="myTable" width="600" border="1">
+<table width="600" border="1">
   <tr>
     <th width="100"> <div align="center">Name</div></th>
     <th width="350"> <div align="center">Comment </div></th>
@@ -25,9 +26,7 @@ while($Result = mysqli_fetch_array($res))
   <tr>
     <td><?php echo $Result['name'];?></div></td>
     <td><?php echo $Result['comment'];?></td>
-    <td><form action = "form2.html" method = "post" id="CommentForm" >
-  <button type="submit" class="btn btn-primary">เเก้ไข</button>
-  </form></td>
+    <td><?php echo $Result['link'];?></td>
   </tr>
 <?php
 }
@@ -38,7 +37,6 @@ mysqli_close($conn);
 ?>
   <form action = "form.html" method = "post" id="CommentForm" >
   <button type="submit" class="btn btn-primary">เพิ่ม</button>
-  </form>
-
+  </form> 
 </body>
 </html>
