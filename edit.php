@@ -37,13 +37,13 @@ div {
 }
 </style>
 <div>
-<form action = "update.php?id=<?php echo $row['id']; ?>" method = "post" id="CommentForm">
+<form action = "update.php?id=<?php echo $row['ID']; ?>" method = "post" id="CommentForm">
     <label for="idName" style="margin: auto 120px">Name</label>
-    <input type="text" name = "name" id="idName" value="<?php echo "$row[name]"; ?>" <br>
+    <input type="text" Name = "name" ID="idName" value="<?php echo "$row[Name]"; ?>" <br>
     <label for="idComment" style="margin: auto 120px">Comment</label>
-    <input type="text" name = "comment" id="idComment" value="<?php echo "$row[comment]"; ?>" <br>
+    <input type="text" Name = "comment" ID="idComment" value="<?php echo "$row[Comment]"; ?>" <br>
 		<label for="idLink" style="margin: auto 120px">Link</label>
-    <input type="text" name = "link" id="idLink" value="<?php echo "$row[link]"; ?>"> <br><br>
+    <input type="text" Name = "link" ID="idLink" value="<?php echo "$row[Link]"; ?>"> <br><br>
     <input type="submit" id="commentBtn"class="btn btn-outline-warning">
 </div>
   </form>
