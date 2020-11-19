@@ -25,7 +25,9 @@ while($Result = mysqli_fetch_array($res))
   <tr>
     <td><?php echo $Result['name'];?></div></td>
     <td><?php echo $Result['comment'];?></td>
-    <td><?php echo $Result['link'];?></td>
+    <td><form action = "form.html" method = "post" id="CommentForm" >
+  <button type="submit" class="btn btn-primary">เพิ่ม</button>
+  </form> </td>
   </tr>
 <?php
 }
