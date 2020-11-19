@@ -27,7 +27,7 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['comment'];?></td>
     <td><form action = "form2.html" method = "post" id="CommentForm" >
   <button type="submit" class="btn btn-primary">เเก้ไข</button>
-  </form><button onclick="myFunction()">ลบ</button> </td>
+  </form></td>
   </tr>
 <?php
 }
@@ -39,11 +39,6 @@ mysqli_close($conn);
   <form action = "form.html" method = "post" id="CommentForm" >
   <button type="submit" class="btn btn-primary">เพิ่ม</button>
   </form>
-<script>
-function myFunction() {
-  document.getElementById("myTable").deleteRow(1);
-}
-</script>
 
 </body>
 </html>
