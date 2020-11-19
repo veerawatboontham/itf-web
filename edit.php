@@ -37,7 +37,7 @@ div {
 }
 </style>
 <div>
-<form action = "update.php?id=<?php echo $row['ID']; ?>" method = "post" id="CommentForm">
+<form action = "update.php?ID=<?php echo $row['ID']; ?>" method = "post" id="CommentForm">
     <label for="idName" style="margin: auto 120px">Name</label>
     <input type="text" Name = "name" ID="idName" value="<?php echo "$row[Name]"; ?>" <br>
     <label for="idComment" style="margin: auto 120px">Comment</label>
