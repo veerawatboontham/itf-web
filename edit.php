@@ -39,11 +39,11 @@ div {
 <div>
 <form action = "update.php?ID=<?php echo $row['ID']; ?>" method = "post" id="CommentForm">
     <label for="idName" style="margin: auto 120px">Name</label>
-    <input type="text" Name = "name" ID="idName" value="<?php echo "$row[Name]"; ?>" <br>
+    <input type="text" name = "Name" ID="idName" value="<?php echo "$row[Name]"; ?>" <br>
     <label for="idComment" style="margin: auto 120px">Comment</label>
-    <input type="text" Name = "comment" ID="idComment" value="<?php echo "$row[Comment]"; ?>" <br>
+    <input type="text" name = "Comment" ID="idComment" value="<?php echo "$row[Comment]"; ?>" <br>
 		<label for="idLink" style="margin: auto 120px">Link</label>
-    <input type="text" Name = "link" ID="idLink" value="<?php echo "$row[Link]"; ?>"> <br><br>
+    <input type="text" name = "Link" ID="idLink" value="<?php echo "$row[Link]"; ?>"> <br><br>
     <input type="submit" id="commentBtn"class="btn btn-outline-warning">
 </div>
   </form>
