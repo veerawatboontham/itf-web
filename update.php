@@ -5,7 +5,7 @@ mysqli_real_connect($conn, '63070161lab-13.mysql.database.azure.com', 'Veerawat@
 $name=$_POST['name'];
 $comment=$_POST['comment'];
 $link=$_POST['link'];
-$sql="UPDATE guestbook SET Name='$name',Comment='$comment',Link='$link' WHERE ID='$id'";
+$sql="UPDATE guestbook SET name='$name',comment='$comment',link='$link' WHERE id='$id'";
 if (mysqli_query($conn, $sql)) {
     header("Location: index.php");
   } else {
