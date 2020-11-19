@@ -23,9 +23,9 @@ while($Result = mysqli_fetch_array($res))
 {
 ?>
   <tr>
-    <td><?php echo $Result['name'];?></div></td>
-    <td><?php echo $Result['comment'];?></td>
-    <td><?php echo $Result['link'];?></td>
+    <td><?php echo $Result['Name'];?></div></td>
+    <td><?php echo $Result['Comment'];?></td>
+    <td><?php echo $Result['Link'];?></td>
     <td>
       <a href="edit.php?ID=<?php echo $Result['ID']?>" class="btn btn-outline-success" >EDIT</a>
       <a href="del.php?ID=<?php echo $Result['ID']?>" class="btn btn-outline-danger"onclick="return confirm('Confirm data deletion?')">DELETE</a>
