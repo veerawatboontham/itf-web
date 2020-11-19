@@ -26,7 +26,7 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['name'];?></div></td>
     <td><?php echo $Result['comment'];?></td>
     <td><form action = "form2.html" method = "post" id="CommentForm" >
-  <button type="submit" class="btn btn-primary">เเก้ไข</button>
+  <button type="submit"  onclick="myFunction()" class="btn btn-primary">เเก้ไข</button>
   </form><button onclick="myFunction()">ลบ</button> </td>
   </tr>
 <?php
