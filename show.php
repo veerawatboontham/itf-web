@@ -41,7 +41,7 @@ mysqli_close($conn);
   </form>
 <script>
 function myFunction() {
-  document.getElementById("myTable").deleteRow(0);
+  document.getElementById("myTable").deleteRow(1);
 }
 </script>
 
