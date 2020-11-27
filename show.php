@@ -30,6 +30,7 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['Price'];?></td>
     <td><?php echo $Result['Amount'];?></td>
     <td><?php echo $Result['Total'];?></td>
+    <td><?php echo $Result['Price']*$Result['Amount'];?></td>
     <td>
       <a href="edit.php?ID=<?php echo $Result['ID']?>" class="btn btn-outline-success" >EDIT</a>
       <a href="del.php?ID=<?php echo $Result['ID']?>" class="btn btn-outline-danger"onclick="return confirm('Confirm data deletion?')">DELETE</a>
