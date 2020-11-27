@@ -14,7 +14,7 @@ if (mysqli_connect_errno($conn))
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <table width="600" border="1" class="table table-striped table-dark">
-  <tr class="bg-info">
+  <tr class="bg-info" style="background-color:#A4A4A4;">
     <th width="100"> <div align="center">ชื่อสินค้า</div></th>
     <th width="350"> <div align="center">ราคาต่อหน่วย</div></th>
     <th width="150"> <div align="center">จำนวน</div></th>
