@@ -37,6 +37,7 @@ while($Result = mysqli_fetch_array($res))
 }
 ?>
 </table>
+    <a href="form.html?ID=<?php echo $Result['ID']?>" class="btn btn-outline-danger">Add</a>
 <?php
 mysqli_close($conn);
 ?>
