@@ -38,7 +38,7 @@ while($Result = mysqli_fetch_array($res))
 }
 ?>
 </table>
-<button type="button" class="btn btn-outline-warning" onclick ="window.location.href='form.html'">ADD</button> 
+    <a href="form.html?ID=<?php echo $Result['ID']?>" class="btn btn-outline-danger">Add</a>
 <?php
 mysqli_close($conn);
 ?>
