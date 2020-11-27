@@ -8,12 +8,12 @@ if (mysqli_connect_errno($conn))
 }
 
 
-$name = $_POST['Name'];
-$comment = $_POST['Comment'];
-$link = $_POST['Link'];
+$name = $_POST['Product'];
+$comment = $_POST['Price'];
+$link = $_POST['Amount'];
 
 
-$sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment', '$link')";
+$sql = "INSERT INTO guestbook (Product , Price , Amount) VALUES ('$name', '$comment', '$link')";
 
 
 if (mysqli_query($conn, $sql)) {
