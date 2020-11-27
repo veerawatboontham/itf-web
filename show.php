@@ -11,7 +11,6 @@ if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
-$sumtotal = $Result['Price']*$Result['Amount']
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <table width="600" border="1" class="table table-striped table-dark">
@@ -41,7 +40,6 @@ while($Result = mysqli_fetch_array($res))
 ?>
 </table>
 <button type="button" class="btn btn-outline-warning" onclick ="window.location.href='form.html'">ADD</button> 
-    <p>$sumtotal</p>
 <?php
 mysqli_close($conn);
 ?>
