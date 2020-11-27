@@ -39,7 +39,15 @@ while($Result = mysqli_fetch_array($res))
 }
 ?>
 </table>
-<button type="button" class="btn btn-outline-warning" onclick ="window.location.href='form.html'">ADD</button>                                                                                                       
+<button type="button" class="btn btn-outline-warning" onclick ="window.location.href='form.html'">ADD</button>    
+$num_str1 = "3"; 
+$num_str2 = "11.222"; 
+   
+// calculates the multiplication of the two 
+// numbers when $scaleVal is not specified 
+$res = bcmul($num_str1, $num_str2); 
+  
+echo $res; 
 <?php
 mysqli_close($conn);
 ?>
